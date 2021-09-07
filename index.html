@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data:; script-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; object-src 'self' data:">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self' data:; script-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; object-src 'self' data:">
+    <title>Criptógrafo</title>
+  </head>
+  <body>
+    <link rel="stylesheet" href="src/styles.css">
+  <header>
+    <img src="assets/Criptografia.png">
+    <h1>Seja Bem-Vindo ao Criptógrafo</h1>
+
+    <p>Criptografe agore seus PDFs para que fiquem seguros</p>
+    <p>ou descriptografe seus PDFs para que possa ler.</p>
+  </header>
+  <main>
+    <section class="section-crypt">
+      <h2>Criptografia</h2>
+      <p class="bold">Selecione o PDF</p>
+      <label for="arquivo" class="btn-file">Escolha o Arquivo</label>
+      <input type="file" name="arquivo" id="arquivo">
+
+      <p class="bold">Baixe seus arquivos:</p>
+      <div id="list"></div>
+
+    </section>
+
+    <section class="section-decrypt">
+      <h2>Descriptografia</h2>
+      <p class="bold">Selecione o PDF criptografado</p>
+      <label for="arquivo-crypt" class="btn-file-crypt">Escolha o Arquivo</label>
+      <input type="file" name="arquivo-crypt" id="arquivo-crypt">
+
+      <p class="bold">Baixe seus arquivos:</p>
+      <div id="list-crypt"></div>
+
+    </section>
+  </main>
+    <script src="src/encrypt.js"></script>
+  </body>
+</html>

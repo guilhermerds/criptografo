@@ -1,0 +1,16 @@
+{
+  "name": "Criptografo",
+  "version": "1.0.0",
+  "main": "main.js",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^13.2.1",
+    "electron-reload": "^2.0.0-alpha.1"
+  },
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "md5": "^2.3.0"
+  }
+}

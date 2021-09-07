@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'roboto';
+}
+
+body{
+    background-color: white;
+}
+
+img{
+    position: absolute;
+    width: 115px;
+}
+
+header {
+    padding: 50px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+header h1{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 46px;
+}
+
+header p {
+    text-align: center;
+}
+
+main{
+    display: flex;
+    width: 100vw;
+    height: calc(100vh - 204px);
+    font-weight: bold;
+}
+
+main p{
+    margin-bottom: 15px;
+    margin-top: 35px;
+}
+
+main h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 65px;
+}
+
+main .section-crypt{
+    background-color: #F5C462;
+    width: 50vw;
+    padding: 40px;
+}
+main #list{
+    display: flex;
+    max-width: calc(50vw - 80px);
+    overflow: auto;
+}
+
+main #list a{
+    padding: 10px;
+    background-color: #115EC2;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-right: 10px;
+    word-break: keep-all;
+}
+
+.btn-file{
+    padding: 10px;
+    background-color: #115EC2;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-right: 10px;
+    word-break: keep-all;
+    margin-bottom: 50px;
+
+}
+
+main .section-decrypt{
+    background-color: #2C72F5;
+    width: 50vw;
+    padding: 40px;
+    color: white
+}
+
+main #list-crypt{
+    display: flex;
+    max-width: calc(50vw - 80px);
+    overflow: auto;
+}
+
+main #list-crypt a{
+    padding: 10px;
+    background-color: #FFBD39;
+    color: black;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-right: 10px;
+    word-break: keep-all;
+}
+
+.btn-file-crypt{
+    padding: 10px;
+    background-color: #FFBD39;
+    color: black;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-right: 10px;
+    word-break: keep-all;
+    margin-bottom: 20px;
+}
